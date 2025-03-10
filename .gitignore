@@ -1,0 +1,34 @@
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment
+venv/
+env/
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+*.swp
+
+# Ignore dependency caches
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore database and instance files
+backend/database.db
+backend/migrations/
+backend/instance/
+
+# Ignore environment variables
+.env
+*.env
+
+# Ignore frontend dependencies (if using npm)
+frontend/node_modules/
+frontend/package-lock.json
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
